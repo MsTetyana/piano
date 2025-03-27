@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Piano-main</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__locations">
+      <img src="/images/header/locations-ico.png" alt="" class="header__locations-img">
+      <a href="#" class="header__locations-link">
+        МАГАЗИНИ ВІДКРИТІ ЗА НОВОЮ АДРЕСУ
+      </a>
+    </div>
+    <div class="container">
+      <div class="header__info">
+        <a href="#" class="header__logo">
+          <img src="./images/logo.svg" alt="logo" class="logo-img">
+        </a>
+        <div class="header__info-links">
+          <a href="#" class="header__info-location">
+            <img src="./images/header/location-ico-city.png" alt="" class="header__info-location-ico">
+            <p>Харків</p>
+          </a>
+          <a href="tel:380679421875" class="header__info-tel">
+            <img class="header__info-tel-ico" src="./images/header/tel-ico.png" alt="">
+            <p>+380-67-942-18-75</p>
+          </a>
+        </div>
+        <ul class="header__bottom-icons header-icons">
+          <li class="header__bottom-icons-item">
+            <a href="#" class="header__bottom-icons-link">
+              <img src="./images/header/filter-ico.png" alt="" class="header__bottom-icon">
+            </a>
+          </li>
+          <li class="header__bottom-icons-item">
+            <a href="#" class="header__bottom-icons-link">
+              <img src="./images/header/star-ico.png" alt="" class="header__bottom-icon">
+            </a>
+          </li>
+          <li class="header__bottom-icons-item">
+            <a href="#" class="header__bottom-icons-link">
+              <img src="./images/header/bag-ico.png" alt="" class="header__bottom-icon">
+            </a>
+          </li>
+        </ul>
+        <div class="mobile__btn">
+          <a href="tel:380679421875" class="mobile__btn-tel">
+            <img src="/images/header/mobile-ico-tel.svg" alt="" class="mobile__btn-tel-ico">
+          </a>
+          <button class="menu__btn">
+            <img src="/images/header/menu-btn-ico.svg" alt="" class="menu__btn-ico">
+          </button>
+        </div>
+       
+      </div>
+    </div>
+    <div class="header__bottom-bg">
+      <div class="container">
+        <div class="header__bottom">
+          <nav class="header__nav">
+            <div class="header__menu header__menu-mob">
+              <div class="header__menu-mob-top">
+                <a href="#" class="location">
+                  <img src="./images/header/location-ico-mob.svg" alt="" class="location-ico">
+                  <p class="location-city">Харків</p>
+                </a>
+                <button class="button__close">
+                  <img src="./images/header/close-ico-mob.svg" alt="" class="button__close-img">
+                </button>
+              </div>
+              <ul class="header__menu-list">
+                <li class="header__menu-item header__menu-item--active">
+                  <a href="#" class="header__menu-link">Каталог</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">Доставка</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">Оплата</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">Акції</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">Про нас</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">Контакти</a>
+                </li>
+              </ul>
+              <div class="header__menu-mob-bottom">
+                <ul class="header__contacts">
+                  <li class="header__contacts-item">
+                    <a href="tel:380679421875" class="header__contacts-link">
+                      <img src="./images/footer/footer-tel-ico.png" alt="" class="header__contacts-img">
+                      <p class="header__contacts-tel">+380-67-942-18-75</p>
+                    </a>
+                  </li>
+                  <li class="header__contacts-item">
+                    <a href="mailto:Hello@odijo.ua" class="header__contacts-link">
+                      <img src="./images/footer/footer-mail-ico.png" alt="" class="header__contacts-img">
+                      <p class="header__contacts-email">Hello@odigo.ua</p>
+                    </a>
+                  </li>
+                  <li class="header__contacts-item">
+                    <a href="#" class="header__contacts-link">
+                      <img src="./images/footer/footer-whatsapp-ico.png" alt="" class="header__contacts-img">
+                      <p class="header__contacts-whatwapp">whatsapp</p>
+                    </a>
+                  </li>
+                  <li class="header__contacts-item">
+                    <a href="#" class="header__contacts-link">
+                      <img src="./images/footer/footer-whatsapp-ico.png" alt="" class="header__contacts-img">
+                      <p class="header__contacts-whatwapp">whatsapp</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="header__menu-search">
+              <a href="#" class="header__menu-search-link">
+                <img src="./images/header/header-search-ico.png" alt="" class="header__menu-search-ico">
+              </a>
+            </div>
+          </nav>
+          <ul class="header__bottom-icons">
+            <li class="header__bottom-icons-item">
+              <a href="#" class="header__bottom-icons-link">
+                <img src="./images/header/filter-ico.png" alt="" class="header__bottom-icon">
+              </a>
+            </li>
+            <li class="header__bottom-icons-item">
+              <a href="#" class="header__bottom-icons-link">
+                <img src="./images/header/star-ico.png" alt="" class="header__bottom-icon">
+              </a>
+            </li>
+            <li class="header__bottom-icons-item">
+              <a href="#" class="header__bottom-icons-link">
+                <img src="./images/header/bag-ico.png" alt="" class="header__bottom-icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top block-mb">
+      <div class="container">
+        <div class="top__swiper swiper">
+          <div class="swiper-wrapper">
+    
+            <div class="top-slide__inner swiper-slide">
+              <div class="top-slide__info">
+                <h2 class="top-slide__title">
+                  Цифрове піаніно Roland FP-30X111111111111
+                </h2>
+                <p class="top-slide__text">
+                  Доступно у білому кольорі
+                </p>
+                <p class="top-slide__text">
+                  2-сенсорна клавіатура
+                </p>
+                <div class="top-slide__bottom">
+                  <a href="#" class="button-link">
+                    докладніше
+                  </a>
+                  <div class="price">43 000 грн</div>
+                </div>
+              </div>
+              <img src="./images/main/rolandFP-30X_WH.png" alt="" class="top-slide__img">
+            </div>
+            <div class="top-slide__inner swiper-slide">
+              <div class="top-slide__info">
+                <h2 class="top-slide__title">
+                  Цифрове піаніно Roland FP-30X22222222222
+                </h2>
+                <p class="top-slide__text">
+                  Доступно у жовтому кольорі
+                </p>
+                <p class="top-slide__text">
+                  2-сенсорна клавіатура
+                </p>
+                <div class="top-slide__bottom">
+                  <a href="#" class="button-link">
+                    докладніше
+                  </a>
+                  <div class="price">53 000 грн</div>
+                </div>
+              </div>
+              <img src="./images/main/rolandFP-30X_WH.png" alt="" class="top-slide__img">
+            </div>
+            <div class="top-slide__inner swiper-slide">
+              <div class="top-slide__info">
+                <h2 class="top-slide__title">
+                  Цифрове піаніно Roland FP-30X3333333333333
+                </h2>
+                <p class="top-slide__text">
+                  Доступно у чорному кольорі
+                </p>
+                <p class="top-slide__text">
+                  2-сенсорна клавіатура
+                </p>
+                <div class="top-slide__bottom">
+                  <a href="#" class="button-link">
+                    докладніше
+                  </a>
+                  <div class="price">63 000 грн</div>
+                </div>
+              </div>
+              <img src="./images/main/rolandFP-30X_WH.png" alt="" class="top-slide__img">
+            </div>
+            <div class="top-slide__inner swiper-slide">
+              <div class="top-slide__info">
+                <h2 class="top-slide__title">
+                  Цифрове піаніно Roland FP-30X444444444444
+                </h2>
+                <p class="top-slide__text">
+                  Доступно у білому кольорі
+                </p>
+                <p class="top-slide__text">
+                  2-сенсорна клавіатура
+                </p>
+                <div class="top-slide__bottom">
+                  <a href="#" class="button-link">
+                    докладніше
+                  </a>
+                  <div class="price">43 000 грн</div>
+                </div>
+              </div>
+              <img src="./images/main/rolandFP-30X_WH.png" alt="" class="top-slide__img">
+            </div>
+            <div class="top-slide__inner swiper-slide">
+              <div class="top-slide__info">
+                <h2 class="top-slide__title">
+                  Цифрове піаніно Roland FP-30X55555555555
+                </h2>
+                <p class="top-slide__text">
+                  Доступно у жовтому кольорі
+                </p>
+                <p class="top-slide__text">
+                  2-сенсорна клавіатура
+                </p>
+                <div class="top-slide__bottom">
+                  <a href="#" class="button-link">
+                    докладніше
+                  </a>
+                  <div class="price">53 000 грн</div>
+                </div>
+              </div>
+              <img src="./images/main/rolandFP-30X_WH.png" alt="" class="top-slide__img">
+            </div>
+            <div class="top-slide__inner swiper-slide">
+              <div class="top-slide__info">
+                <h2 class="top-slide__title">
+                  Цифрове піаніно Roland FP-30X6666666666666
+                </h2>
+                <p class="top-slide__text">
+                  Доступно у чорному кольорі
+                </p>
+                <p class="top-slide__text">
+                  2-сенсорна клавіатура
+                </p>
+                <div class="top-slide__bottom">
+                  <a href="#" class="button-link">
+                    докладніше
+                  </a>
+                  <div class="price">63 000 грн</div>
+                </div>
+              </div>
+              <img src="./images/main/rolandFP-30X_WH.png" alt="" class="top-slide__img">
+            </div>
+            <div class="top-slide__inner swiper-slide">
+              <div class="top-slide__info">
+                <h2 class="top-slide__title">
+                  Цифрове піаніно Roland FP-30X777777777777777
+                </h2>
+                <p class="top-slide__text">
+                  Доступно у чорному кольорі
+                </p>
+                <p class="top-slide__text">
+                  2-сенсорна клавіатура
+                </p>
+                <div class="top-slide__bottom">
+                  <a href="#" class="button-link">
+                    докладніше
+                  </a>
+                  <div class="price">63 000 грн</div>
+                </div>
+              </div>
+              <img src="./images/main/rolandFP-30X_WH.png" alt="" class="top-slide__img">
+            </div>
+  
+          </div>
+          <div class="top__swiper-pagination swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <div class="advantages block-mb">
+      <div class="container">
+        <ul class="advantages__list">
+          <li class="advantages__list-item">
+            <a href="#" class="advantages__list-link">
+              <img src="./images/main/advantages-ico/compass-ico.png" alt="" class="advantages__list-link-img">
+              <p class="advantages__list-link-text">
+                Доставка по всій Україні
+              </p>
+            </a>
+          </li>
+          <li class="advantages__list-item">
+            <a href="#" class="advantages__list-link">
+              <img src="./images/main/advantages-ico/certificate-ico.png" alt="" class="advantages__list-link-img">
+              <p class="advantages__list-link-text">
+                Офіційний дилер
+              </p>
+            </a>
+          </li>
+          <li class="advantages__list-item">
+            <a href="#" class="advantages__list-link">
+              <img src="./images/main/advantages-ico/headset-ico.png" alt="" class="advantages__list-link-img">
+              <p class="advantages__list-link-text">
+                Детальна консультація
+              </p>
+            </a>
+          </li>
+          <li class="advantages__list-item">
+            <a href="#" class="advantages__list-link">
+              <img src="./images/main/advantages-ico/okey-ico.png" alt="" class="advantages__list-link-img">
+              <p class="advantages__list-link-text">
+                Індивідуальний підбір інструменту
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="catalog block-mb">
+      <div class="container">
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <a href="" class="catalog__link">
+              <img src="./images/main/catalog/image-1.jpg" alt="" class="catalog__link-img">
+              <h4 class="catalog__link-title">
+                Цифрові піаніно
+              </h4>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="" class="catalog__link">
+              <img src="./images/main/catalog/image-2.jpg" alt="" class="catalog__link-img-arrow">
+              <h4 class="catalog__link-title"></h4>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="" class="catalog__link">
+              <img src="./images/main/catalog/image-3.jpg" alt="" class="catalog__link-img">
+              <h4 class="catalog__link-title">
+                Акустичні піаніно
+              </h4>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="" class="catalog__link">
+              <img src="./images/main/catalog/image-4.jpg" alt="" class="catalog__link-img">
+              <h4 class="catalog__link-title">
+                Аксесуари
+              </h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="best-selling block-mb">
+      <div class="container">
+        <h2 class="title">топ товарів</h2>
+        <div class="best-selling__swiper swiper">
+          <div class="swiper-wrapper-mb swiper-wrapper">
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-1.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">
+                    Цифровий рояль Yamaha CVP 809 GP чорний полірований
+                  </h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-2.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                      <div class="best-selling__sale">
+                        <img src="./images/main/best-selling/sale-ico.svg" alt="" class="best-selling__sale-ico">
+                        <p class="best-selling__sale-text">Акція</p>
+                      </div>
+                      <div class="best-selling__new">
+                        <img src="./images/main/best-selling/trophy-ico.png" alt="" class="best-selling__sale-ico">
+                        <p class="best-selling__new-text">Новинка</p>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">
+                    Yamaha CVP 809 GP чорний полірований
+                  </h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-3.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">Yamaha CVP 809 GP</h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-4.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">
+                    Yamaha CVP 809 GP чорний полірований
+                  </h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <li class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-1.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">
+                    5555555555555Цифровий рояль Yamaha CVP 809 GP чорний полірований
+                  </h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-2.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                      <div class="best-selling__sale">
+                        <img src="./images/main/best-selling/sale-ico.svg" alt="" class="best-selling__sale-ico">
+                        <p class="best-selling__sale-text">Акція</p>
+                      </div>
+                      <div class="best-selling__new">
+                        <img src="./images/main/best-selling/trophy-ico.png" alt="" class="best-selling__sale-ico">
+                        <p class="best-selling__new-text">Новинка</p>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">
+                    Yamaha CVP 809 GP чорний полірований
+                  </h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <li class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-3.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">Yamaha CVP 809 GP</h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-2.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                      <div class="best-selling__sale">
+                        <img src="./images/main/best-selling/sale-ico.svg" alt="" class="best-selling__sale-ico">
+                        <p class="best-selling__sale-text">Акція</p>
+                      </div>
+                      <div class="best-selling__new">
+                        <img src="./images/main/best-selling/trophy-ico.png" alt="" class="best-selling__sale-ico">
+                        <p class="best-selling__new-text">Новинка</p>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">
+                    Yamaha CVP 809 GP чорний полірований
+                  </h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-3.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">Yamaha CVP 809 GP</h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="best-selling__inner swiper-slide">
+              <div class="best-selling__item">
+                <a href="#" class="best-selling__link">
+                  <div class="best-selling__box">
+                    <img src="./images/main/best-selling/piano-4.png" alt="" class="best-selling__img">
+                    <div class="best-selling__stock">
+                      <img src="./images/main/best-selling/tick-ico.svg" alt="" class="best-selling__ico">
+                      <p class="best-selling-text">У наявності</p>
+                    </div>
+                  </div>
+                  <h3 class="best-selling__title">
+                    Yamaha CVP 809 GP чорний полірований
+                  </h3>
+                  <div class="best-selling__bottom">
+                    <div class="best-selling__bottom-left">
+                      <img src="./images/main/best-selling/basket-ico.png" alt="">
+                      <p class="best-selling__price">45 000грн</p>
+                    </div>
+                    <div class="best-selling__bottom-right">
+                      <div>
+                        <img src="./images/main/best-selling/settings-ico.png" alt="">
+                        <p class="best-selling__setting-number">4</p>
+                      </div>
+                      <img src="./images/main/best-selling/star-ico.png" alt="" class="best-selling__star">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="best-selling__swiper-pagination swiper-pagination"></div>
+
+          <div class="container container-arrow">
+            <div class="swiper-button-prev">
+              <img src="images/main/best-selling/arrow-left.svg" alt="">
+            </div>
+            <div class="swiper-button-next">
+              <img src="images/main/best-selling/arrow-right.svg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="delivery block-mb">
+      <div class="container">
+        <div class="delivery__inner">
+          <div>
+            <h2 class="title delivery-title">доставка</h2>
+            <ul class="delivery__list">
+              <li class="delivery__item">
+                <p>
+                  Ми доставляємо наші товари по всій Україні
+                </p>
+              </li>
+              <li class="delivery__item">
+                <p>
+                  Якщо Ви знаходитесь в Києві або Харкові, можливий самовивіз за попереднім погодженням або доставка на вибрану адресу.
+                </p>
+              </li>
+              <li class="delivery__item">
+                <p>
+                  В інші міста нам допомагають доставляти транспортні компанії.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="delivery__block">
+            <p class="delivery__block-text">
+              <span>
+                Найчастіше, якщо сума покупки більше 5 000 грн., додаткова плата за доставку не потрібна.
+              </span>
+              Але менеджер проговорить з Вами даний момент з урахуванням габаритів, ваги та віддаленості вашої доставки.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="steps block-mb">
+      <div class="container">
+        <h2 class="title">Як працює наш магазин</h2>
+        <ul class="steps__list">
+          <li class="steps__item">
+            Зв'язок із клієнтом будь-яким зручним способом
+          </li>
+          <li class="steps__item">
+            Професійна <span>консультація</span> 
+          </li>
+          <li class="steps__item">
+            Індивідуальний підбір інструменту
+          </li>
+          <li class="steps__item">
+            Узгодження терміну та часу доставки
+          </li>
+          <li class="steps__item">
+            Підбір зручного способу оплати
+          </li>
+          <li class="steps__item">
+            Доставка <span>вашої покупки</span> 
+          </li>
+          <li class="steps__item">
+            Ви <span>задоволені </span> 
+          </li>
+          <li class="steps__item">
+            Подальша консультація з питань, що виникли
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="servises block-mb">
+      <div class="container">
+        <h2 class="title">Наші послуги</h2>
+        <div class="servises__inner">
+          <p class="servises__text">
+            Сент-Екзюпері колись дуже точно підмітив: «Людям вже не вистачає часу щось дізнаватися. Вони купують готові речі в магазинах». Ми ніколи не хотіли бути звичайним магазином із готовими товарами. За кожним нашим покупцем закріплюється менеджер, який відповість на всі ваші запитання, допоможе з вибором, переконається, що товар доставлено, а в разі потреби підкаже, як отримати гарантійне обслуговування. У Києві та у Харкові придбання музичного інструмента можливе з повним спектром послуг від наших спеціалістів.
+          </p>
+          <ul class="servises__list">
+            <li class="servises__item">
+              <img src="./images/main/servises/1.png" alt="" class="servises__img">
+              <p class="servises__name">
+                <span>Доставка</span>
+                до клієнта
+              </p>
+            </li>
+            <li class="servises__item">
+              <img src="./images/main/servises/2.png" alt="" class="servises__img">
+              <p class="servises__name">
+                <span>Підйом</span>
+                інструменту
+              </p>
+            </li>
+            <li class="servises__item">
+              <img src="./images/main/servises/3.png" alt="" class="servises__img">
+              <p class="servises__name">
+                <span>Складання</span>
+                інструменту
+              </p>
+            </li>
+              <li class="servises__item">
+              <img src="./images/main/servises/4.png" alt="" class="servises__img">
+              <p class="servises__name">
+                <span>Налаштування</span>
+                акустичних інструментів
+              </p>
+            </li>
+            <li class="servises__item">
+              <img src="./images/main/servises/5.png" alt="" class="servises__img">
+              <p class="servises__name">
+                <span>Постпродажна</span>
+                консультація
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="team block-mb">
+      <div class="container">
+        <h2 class="team-title title">
+          Наша команда
+        </h2>
+        <div class="team__inner">
+          <p class="team__text">
+            Часто можна почути фразу «It’s just business» — це просто бізнес. Але нашій команді завжди здавалося, що ні «just», ні «просто» тут немає.
+            Ми давно разом і насправді багато всього пережили. Може здатися, що ми принциповіші, суворіші та вимогливіші — і до клієнтів, і до самих себе — більше, ніж потрібно. Але водночас це найдбайливіший, найдобросердніший і найвідповідальніший колектив.
+            Для вас ми — просто магазин, де можна придбати не просто інструмент, а й відчути, що ви важливі.
+          </p>
+          <ul class="team__list">
+            <li class="team__item">
+              <p class="team__person">Дмитро Пенько</p>
+              <p class="team__position">Директор</p>
+            </li>
+            <li class="team__item">
+              <p class="team__person">Маргарина Ліщук</p>
+              <p class="team__position">Управляюча</p>
+            </li>
+            <li class="team__item">
+              <p class="team__person">Анатолій Вендик</p>
+              <p class="team__position">Менеджер з продажу</p>
+            </li>
+            <li class="team__item">
+              <p class="team__person">Марія Скоропис</p>
+              <p class="team__position">Консультант</p>
+            </li>
+          </ul>
+          <a href="#" class="button-link button-link-white">Зв'язатися</a>
+        </div>
+        
+      </div>
+    </section>
+    <section class="instrument-store block-mb">
+      <div class="container">
+        <div class="instrument-store__inner">
+          <div class="instrument-store__content">
+            <div class="instrument-store-title title">
+              Магазин клавішних музичних інструментів
+            </div>
+            <p class="instrument-store__text">
+              Компанія «odijo» здійснює свою діяльність у сфері продажу музичних клавішних інструментів: цифрових піаніно та роялів, акустичних піаніно та роялів, синтезаторів, робочих станцій, супутніх аксесуарів.
+            </p>
+            <p class="instrument-store__text">
+              Основні бренди, представлені в нашому каталозі: Yamaha, Roland, Casio, Kawai та інші. Звернувшись до нас, ви отримаєте якісну допомогу на кожному етапі покупки — від вибору до збирання.
+            </p>
+          </div>
+          <div class="instrument-store-swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+              <div class="instrument-store-slide swiper-slide">
+                <img src="./images/main/swiper-img.jpg" alt="" class="instrument-store-slide-img">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="container container-arrow">
+              <div class="swiper-button-prev-white">
+                <img src="images/main/white-arrow-left.svg" alt="">
+              </div>
+              <div class="swiper-button-next-white">
+                <img src="images/main/white-arrow-right.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <a href="#" class="logo-link">
+            <img src="./images/logo.svg" alt="logo" class="logo-img">
+          </a>
+          <ul class="footer__contacts">
+            <li class="footer__contacts-item">
+              <a href="tel:380679421875" class="footer__contacts-link">
+                <img src="./images/footer/footer-tel-ico.png" alt="" class="footer__contacts-img">
+                <p class="footer__contacts-tel">+380-67-942-18-75</p>
+              </a>
+            </li>
+            <li class="footer__contacts-item">
+              <a href="mailto:Hello@odijo.ua" class="footer__contacts-link">
+                <img src="./images/footer/footer-mail-ico.png" alt="" class="footer__contacts-img">
+                <p class="footer__contacts-email">Hello@odigo.ua</p>
+              </a>
+            </li>
+            <li class="footer__contacts-item">
+              <a href="#" class="footer__contacts-link">
+                <img src="./images/footer/footer-whatsapp-ico.png" alt="" class="footer__contacts-img">
+                <p class="footer__contacts-whatwapp">whatsapp</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-box">
+            <h5 class="footer__list-title">
+              Продукція
+            </h5>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Каталог
+                </a>
+              </li>
+              <li class="footer__list-item footer__list-item--active">
+                <a href="#" class="footer__list-link">
+                  Цифрові піаніно
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Синтезатори
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Акустичні піаніно
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Аксесуари
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links-box">
+            <h5 class="footer__list-title">
+              Як ми працюємо
+            </h5>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Доставка
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Оплата
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Гарантії
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Правила повернення та заміни
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links-box">
+            <h5 class="footer__list-title">
+              Інше
+            </h5>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Акції
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Про нас
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  Послуги
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link">
+            Політика конфіценційності
+          </a>
+          <a href="#" class="footer__bottom-link">
+            Реквізити
+          </a>
+        </p>
+        <p class="footer__bottom-text">
+          Будь-яке використання матеріалів із сайту заборонено без письмового дозволу адміністрації сайту. Вказані на сайті ціни не є публічною офертою, можуть бути змінені в будь-який час. © ТОВ «Odigo» 2022 - нескінченність. Усі права захищені.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
