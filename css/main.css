@@ -30,6 +30,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+span{ 
+  box-sizing: border-box;
+}
 
 .container{
   max-width: 1200px;
@@ -497,11 +500,7 @@ ul {
 .servises__list{
   display: flex;
   justify-content: space-between;
-  gap: 30px;
-}
-
-.servises__item{
-  width: 150px;
+  gap: 20px;
 }
 
 .servises__img{
@@ -511,8 +510,11 @@ ul {
 .servises__name span{
   display: block;
   font-size: 18px;
-  text-transform: auto;
+  text-transform: uppercase;
   font-weight: 700;
+}
+.servises-swiper{
+  display: none;
 }
 
 .team{
@@ -693,10 +695,8 @@ ul {
   display: none;
 }
 
+
 @media(max-width: 1250px){
-  /* .steps__list{
-    grid-template-columns: repeat(3, 270px);
-  } */
   .steps__list {
     gap: 40px 20px;
   }
@@ -749,6 +749,7 @@ ul {
 }
 
 @media(max-width: 1080px){
+  
   .footer__inner{
     gap: 100px;
   }
@@ -767,6 +768,8 @@ ul {
   .steps__item{
     width: 100%;
   }
+
+
   .footer__inner{
     border: none;
     gap: 80px;
@@ -780,7 +783,6 @@ ul {
     flex-wrap: wrap;
     justify-content:  start;
   }
-
   .footer__list{
     width: 179px;
   }
@@ -837,6 +839,11 @@ ul {
   .instrument-store-swiper {
     width: 100%;
     height: auto;
+  }
+  .servises__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
   }
 }
 
@@ -967,7 +974,6 @@ ul {
   .header__contacts-item + .header__contacts-item{
     margin-top: 30px;
   }
-
   .header__info{
     padding: 10px 0;
   }
@@ -1039,6 +1045,17 @@ ul {
     gap: 10px;
   }
 
+  .servises__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 20px;
+  }
+  .servises__name{
+    font-size: 14px;
+  }
+  .servises__name span{
+    font-size: 16px;
+  }
 
   .footer__inner{
     display: block;
@@ -1089,7 +1106,26 @@ ul {
   .steps__item::after{
     width: 85%;
   }
-  
+  .servises__list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 45px;
+  }
+  .servises-block{
+    display: none;
+  }
+  .servises-swiper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-bottom: 45px;
+  }
+  .servises__swiper-pagination.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: var(--swiper-pagination-bottom, 0);
+  }
+  .servises__item.swiper-slide{
+    flex-shrink: 1;
+  }
 
   .footer__contacts{
     display: block;

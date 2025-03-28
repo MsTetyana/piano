@@ -48,7 +48,7 @@ const swiperBestSelling = new Swiper('.best-selling__swiper', {
   },
 });
 
-const swiper = new Swiper('.instrument-store-swiper', {
+const swiperInstrument = new Swiper('.instrument-store-swiper', {
   effect: "cards",
   grabCursor: true,
   pagination: {
@@ -71,3 +71,10 @@ menuBtn.addEventListener('click', () => {
 buttonClose.addEventListener('click', () => {
   menuMob.classList.remove('header__menu-mob--active');
 })
+
+
+const swiperServises = new Swiper(".servises-swiper", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
