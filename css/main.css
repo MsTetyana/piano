@@ -842,7 +842,6 @@ span{
   }
   .servises__list{
     display: flex;
-    justify-content: space-between;
     gap: 10px;
   }
 }
@@ -1041,6 +1040,9 @@ span{
   .advantages__list-item{
     max-width: 100%;
   }
+  .advantages__list-link-text{
+    margin-top: 20px;
+  }
   .catalog__list{
     gap: 10px;
   }
@@ -1107,25 +1109,26 @@ span{
     width: 85%;
   }
   .servises__list{
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 45px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 10px;
   }
-  .servises-block{
-    display: none;
+  .team{
+    background-position: right
   }
-  .servises-swiper{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    padding-bottom: 45px;
+  .team__list{
+    max-width: 100%;
   }
-  .servises__swiper-pagination.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
-    bottom: var(--swiper-pagination-bottom, 0);
+  .team__item{
+    display: block;
   }
-  .servises__item.swiper-slide{
-    flex-shrink: 1;
-  }
+  
+.swiper-button-prev-white{
+  left: 45px;
+}
+
+.swiper-button-next-white{
+  right: 45px;
+}
 
   .footer__contacts{
     display: block;
@@ -1167,5 +1170,11 @@ span{
 
   .footer__links-box{
     width: 160px;
+  }
+}
+
+@media(max-width: 320px){
+  .team{
+    background-image: url(../images/main/team-bg-mob320px.jpg);
   }
 }

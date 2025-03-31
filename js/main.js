@@ -41,7 +41,7 @@ const swiperBestSelling = new Swiper('.best-selling__swiper', {
       slidesPerView: 2,
       spaceBetween: 30,
     },
-    320: {
+    310: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
@@ -73,8 +73,3 @@ buttonClose.addEventListener('click', () => {
 })
 
 
-const swiperServises = new Swiper(".servises-swiper", {
-  pagination: {
-    el: ".swiper-pagination",
-  },
-});
